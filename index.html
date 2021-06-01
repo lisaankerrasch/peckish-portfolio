@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="Peckish - a food blog with recipes from all around the world" />
+    <title>Peckish | Home</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-flex">
+                <div class="mobile-header">
+                    <div class="nav-menu">
+                        <img src="icons/menu-icon.svg" class="menu-icon" alt="menu icon">
+                    </div>
+                    <div class="mobile-menu show-hide">
+                        <div class="mobile-menu-flex uppercase">
+                            <ul>
+                                <a href="index.html">
+                                    <li>Home</li>
+                                </a>
+                                <a href="blog.html">
+                                    <li>Blog</li>
+                                </a>
+                                <a href="recipes.html">
+                                    <li>Find recipe</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>About us</li>
+                                </a>
+                                <a href="contact.html">
+                                    <li>Contact</li>
+                                </a>
+                                <li>
+                                    <div class="deco-line-darkcoral"></div>
+                                </li>
+                                <li>
+                                    <div class="deco-line-lightcoral"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-item-1 logo">
+                        <h1><a href="index.html"><img src="icons/peckish-logo-black-slogan.svg" alt="Peckish logo"></a>
+                        </h1>
+                    </div>
+                    <div>
+                        <ul class="nav-item-2 uppercase">
+                            <a href="index.html" class="active">
+                                <li>Home</li>
+                            </a>
+                            <a href="blog.html">
+                                <li>Blog</li>
+                            </a>
+                            <a href="recipes.html">
+                                <li class="dropdown-header">Recipes
+
+                                </li>
+                                <li class="dropdown show-hide">
+                                    <div class="dropdown-menu uppercase">
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="about.html">
+                                <li>About us</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="nav-item-3">
+                        <img class="search-icon" src="icons/search-icon.svg" alt="Search icon">
+                        <div class="search-bar show-hide">
+                            <form class="search-form">
+                                <div class="search-box">
+                                    <label for="searchfield" class="screenreader">Search</label>
+                                    <input id="searchfield" class="search-field" type="search"
+                                        placeholder="Search recipe or ingredient.." value="" />
+                                </div>
+                                <div class="go-button">
+                                    <p>Go!</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="loader-container"></div>
+        <h3 class="search-result-text"></h3>
+        <h3 class="error"></h3>
+        <div class="search-container"></div>
+        <div class="hideforsearch">
+            <div class="carousel-container">
+                <h2 class="uppercase index-header">Latest posts</h2>
+                <div class="carousel">
+                    <div class="slider-desktop">
+                        <section class="section1"></section>
+                        <section class="section2"></section>
+                        <section class="section3"></section>
+                        <section class="section4"></section>
+                    </div>
+                    <div class="slider-mobile">
+                        <section class="section1-1"></section>
+                        <section class="section2-2"></section>
+                        <section class="section3-3"></section>
+                        <section class="section4-4"></section>
+                    </div>
+                    <div class="controls">
+                        <img src="icons/arrow-left.svg" class="arrow left" alt="arrow left">
+                        <img src="icons/arrow-right.svg" class="arrow right" alt="arrow right">
+                        <ul>
+                            <li class="selected"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="index-container">
+                <div class="deco-line-yellow"></div>
+                <div class="popular-recipes">
+                    <div class="popular-header uppercase">
+                        <div class="deco-line-palepink"></div>
+                        <h3>Popular recipes</h3>
+                        <div class="deco-line-palepink"></div>
+                    </div>
+                    <div class="popular-container"></div>
+                </div>
+                <div class="blog-block">
+                    <div class="blog-block-1">
+                        <a href="setthetable.html"><img src="images/peckish1.jpg" alt="Table setting"></a></div>
+                    <div class="blog-block-2">
+                        <div class="blog-block-text">
+                            <a href="setthetable.html">
+                                <h4>Set the Table</h4>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt
+                                ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <a class="desktop" href="setthetable.html">Read more...</a>
+                        </div>
+                        <div class="blog-deco-line-yellow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="newsletter-full">
+                <div class="newsletter-container">
+                    <div class="newsletter-text">
+                        <h4>Sign up for our newsletter!</h4>
+                        <p>You’ll receive a maximum of one email every other week, with new recipes
+                            and inspiration. </p>
+                        <a href="newsletter.html"><button class="signup">I'm in!</button></a>
+                    </div>
+                    <div class="newsletter-img">
+                        <img src="images/peckish2.jpg" alt="red drinks on a table">
+                    </div>
+                </div>
+            </div>
+            <div class="deco-line-green"></div>
+            <div class="index-container">
+                <div class="drinks-header uppercase">
+                    <div class="deco-line-palepink"></div>
+                    <h3>Drinks</h3>
+                    <div class="deco-line-palepink"></div>
+                </div>
+                <div class="drinks-container"></div>
+            </div>
+        </div>
+        <div><img class="to-top" src="icons/to-top.svg" alt="Go to top of page"></div>
+    </main>
+
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-item-1">
+                <a href="newsletter.html">
+                    <p>Sign up for newsletter</p>
+                </a>
+                <a href="contact.html">
+                    <p>Contact us</p>
+                </a>
+                <a href="contact.html">
+                    <p>Advertise</p>
+                </a>
+                <p>© 2021 Peckish</p>
+            </div>
+            <div class="footer-item-2">
+                <a href="www.facebook.com"><img class="some-icons facebook" src="icons/SOME-facebook.svg"
+                        alt="Facebook icon"></a>
+                <a href="www.instagram.com"><img class="some-icons instagram" src="icons/SOME-instagram.svg"
+                        alt="instagram icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

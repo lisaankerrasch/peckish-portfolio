@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="Find recipes in all categories" />
+    <title>Peckish | Recipes </title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-flex">
+                <div class="mobile-header">
+                    <div class="nav-menu">
+                        <img src="icons/menu-icon.svg" class="menu-icon" alt="menu icon">
+                    </div>
+                    <div class="mobile-menu show-hide">
+                        <div class="mobile-menu-flex uppercase">
+                            <ul>
+                                <a href="index.html">
+                                    <li>Home</li>
+                                </a>
+                                <a href="blog.html">
+                                    <li>Blog</li>
+                                </a>
+                                <a href="recipes.html">
+                                    <li>Find recipe</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>About us</li>
+                                </a>
+                                <a href="contact.html">
+                                    <li>Contact</li>
+                                </a>
+                                <li>
+                                    <div class="deco-line-darkcoral"></div>
+                                </li>
+                                <li>
+                                    <div class="deco-line-lightcoral"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-item-1 logo">
+                        <h1><a href="index.html"><img src="icons/peckish-logo-black-slogan.svg" alt="Peckish logo"></a>
+                        </h1>
+                    </div>
+                    <div>
+                        <ul class="nav-item-2 uppercase">
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="blog.html">
+                                <li>Blog</li>
+                            </a>
+                            <a href="recipes.html" class="active">
+                                <li class="dropdown-header">Recipes
+
+                                </li>
+                                <li class="dropdown show-hide">
+                                    <div class="dropdown-menu uppercase">
+                                    </div>
+                                </li>
+                            </a>
+                            <a href="about.html">
+                                <li>About us</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="nav-item-3">
+                        <img class="search-icon" src="icons/search-icon.svg" alt="Search icon">
+                        <div class="search-bar show-hide">
+                            <form class="search-form">
+                                <div class="search-box">
+                                    <label for="searchfield" class="screenreader">Search</label>
+                                    <input id="searchfield" class="search-field" type="search"
+                                        placeholder="Search recipe or ingredient.." value="" />
+                                </div>
+                                <div class="go-button">
+                                    <p>Go!</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="loader-container"></div>
+        <h3 class="search-result-text"></h3>
+        <h3 class="error"></h3>
+        <div class="search-container"></div>
+        <div class="hideforsearch">
+            <div class="recipe-container">
+                <h2 class="uppercase">Recipes</h2>
+                <div class="recipe-header uppercase">
+                    <div class="deco-line-palepink"></div>
+                    <h3>Meal type</h3>
+                    <div class="deco-line-palepink"></div>
+                </div>
+                <div class="meals">
+                </div>
+                <div class="recipe-header uppercase">
+                    <div class="deco-line-palepink"></div>
+                    <h3>main ingredient</h3>
+                    <div class="deco-line-palepink"></div>
+                </div>
+                <div class="recipes">
+                </div>
+                <div class="popular-recipes">
+                    <div class="popular-header uppercase">
+                        <div class="deco-line-palepink"></div>
+                        <h3>Popular recipes</h3>
+                        <div class="deco-line-palepink"></div>
+                    </div>
+                    <div class="popular-container"></div>
+                </div>
+                <div class="recipe-header uppercase">
+                    <div class="deco-line-palepink"></div>
+                    <h3>Type of cuisine</h3>
+                    <div class="deco-line-palepink"></div>
+                </div>
+                <div class="cuisine">
+                </div>
+            </div>
+        </div>
+        <div><img class="to-top" src="icons/to-top.svg" alt="Go to top of page"></div>
+    </main>
+
+    <footer>
+        <div class="footer-flex">
+            <div class="footer-item-1">
+                <a href="newsletter.html">
+                    <p>Sign up for newsletter</p>
+                </a>
+                <a href="contact.html">
+                    <p>Contact us</p>
+                </a>
+                <a href="contact.html">
+                    <p>Advertise</p>
+                </a>
+                <p>© 2021 Peckish</p>
+            </div>
+            <div class="footer-item-2">
+                <a href="www.facebook.com"><img class="some-icons facebook" src="icons/SOME-facebook.svg"
+                        alt="Facebook icon"></a>
+                <a href="www.instagram.com"><img class="some-icons instagram" src="icons/SOME-instagram.svg"
+                        alt="instagram icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/recipes.js"></script>
+
+</body>
+
+</html>
