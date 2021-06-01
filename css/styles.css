@@ -41,7 +41,8 @@ a {
 
 
 a:hover {
-    color: #FF8676;
+    font-weight: bold;
+    color: #e9535f;
 }
 
 p {
@@ -58,7 +59,8 @@ p {
 }
 
 .active {
-    color: #FF8676
+    font-weight: bold;
+    color: #e9535f
 }
 
 .center-text {
