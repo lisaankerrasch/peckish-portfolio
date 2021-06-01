@@ -1804,6 +1804,10 @@ footer p {
         max-width: 250px;
     }
 
+    .popular-img {
+        width: 200px;
+    }
+
     .result-item {
         max-width: 300px;
         margin: 20px;
