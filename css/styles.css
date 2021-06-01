@@ -1806,6 +1806,11 @@ footer p {
 
     .popular-img {
         width: 200px;
+        height: 200px;
+    }
+
+    .popular-title {
+        width: 200px;
     }
 
     .result-item {
