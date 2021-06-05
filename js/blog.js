@@ -31,7 +31,7 @@ async function getBlogposts() {
         </div></a>
         <div class="blogpost-block-2">
             <div class="blogpost-block-text">
-            <a href="blogpost.html?id=${blog[i].id}"><h4>${blog[i].title.rendered}</h4></a>
+            <a href="blogpost.html?id=${blog[i].id}"><h2>${blog[i].title.rendered}</h2></a>
                 <p>${blog[i].excerpt.rendered}</p>
                 <a href="blogpost.html?id=${blog[i].id}"><p>Read more..</p></a>
 
